@@ -19,8 +19,9 @@ body {
 .nav {
     height: 50px;
     width: 100%;
-    background-color: #1177ca;
+    /* background-color: #D6F4E3; */
     position: relative;
+    opacity: 0.5;
   }
 .nav > .nav-header {
     display: inline;
@@ -30,7 +31,7 @@ body {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 10px 10px 10px;
-    font-size: 22px;
+    font-size: 26px;
     color: #fff;
     font-weight: 550;
   }
@@ -43,7 +44,7 @@ body {
 .nav > .nav-links > ul li a{
     color: #fff;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 22px;
     display: block;
     padding: 0 8px;
     text-decoration: none;
@@ -58,13 +59,14 @@ body {
   }
 .nav > .nav-links > ul li{
     display: inline-block;
-    background-color: #1177ca;
+    /* background-color: #BDF6D6; */
     
     
   }
 .nav > .nav-links > ul li:hover{
-      background-color: #0b65af;
+      background-color: #B1EFC8;
       border-radius: 5px;
+      
   }
 .nav .nav-links ul a.icon{
     margin-left: 80px;

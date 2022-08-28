@@ -1,1 +1,1 @@
-console.log('ok');
+import { page, render } from './lib.js';

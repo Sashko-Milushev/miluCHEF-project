@@ -183,6 +183,7 @@ input[type=text], select, textarea {
     padding: 10px 10px 10px 10px;
     color: rgb(184, 179, 179);
     font-weight: 550;
+    opacity: 0.7;
     
 }
     
@@ -198,5 +199,14 @@ button[type=submit] {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  } 
-    
+  }
+button[type=submit]:hover {
+    background-color: #B1EFC8;
+} 
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }

@@ -1,5 +1,6 @@
 import { page, render } from './lib.js';
 import { homeView } from './src/views/home.js';
+import { contactView } from './src/views/contact.js';
 
 const main = document.querySelector('main');
 page(decorateContext);
@@ -9,7 +10,7 @@ page('/', homeView)
 // page('/recipes', recipesView)
 // page('/about', aboutView)
 // page('/mission', missionView)
-// page('/contact', contactView)
+page('/contact', contactView)
 
 page.start()
 

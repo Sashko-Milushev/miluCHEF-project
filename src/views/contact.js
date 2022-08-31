@@ -10,7 +10,7 @@ const contactTemplate = (onSubmit) => html`
         </div>
         <div>
             <form @submit=${onSubmit} class="submit-form">
-                <h2>Имате нужда от помощ с някоя рецепта? Не се колебайте да ме попитате за каквото и да е!</h2>
+                <h2>Имате нужда от помощ с някоя рецепта? Не се колебайте да ме попитате за каквото и да било!</h2>
                 <label for="fname">Име</label>
                 <input type="text" id="fname" name="firstname" placeholder="Име..">
                 <label for="lname">Фамилия</label>

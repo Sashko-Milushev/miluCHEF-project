@@ -5,6 +5,7 @@ import { contactView } from './src/views/contact.js';
 const main = document.querySelector('main');
 page(decorateContext);
 
+
 page('/', homeView)
 // page('/video', VideoView)
 // page('/recipes', recipesView)
@@ -13,6 +14,8 @@ page('/', homeView)
 page('/contact', contactView)
 
 page.start()
+page.redirect('/')
+
 
 function decorateContext(ctx, next) {
     ctx.render = renderMain;

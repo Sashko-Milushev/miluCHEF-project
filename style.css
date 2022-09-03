@@ -266,4 +266,5 @@ button[type=submit]:hover {
     margin-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
+    font-style:oblique;
 }

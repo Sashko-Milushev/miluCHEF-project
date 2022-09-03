@@ -260,3 +260,10 @@ button[type=submit]:hover {
   width: 20%;
   border-radius: 5px;
 }
+.column-about {
+    float:inline-start;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}

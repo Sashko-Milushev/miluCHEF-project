@@ -1,7 +1,7 @@
 import { html } from '../../lib.js'
 
 const missionTemplate = () => html`
-    <section id="home">
+    <section id="mission">
         <h1>
             My mission
         </h1>

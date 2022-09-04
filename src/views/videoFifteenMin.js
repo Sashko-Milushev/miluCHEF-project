@@ -1,7 +1,7 @@
 import { html } from '../../lib.js'
 
 const videoFifteenlTemplate = () => html`
-    <section id="revival">
+    <section id="fifteen-minutes">
         <h1>
             Fifteen minute videos
         </h1>

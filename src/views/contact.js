@@ -1,7 +1,7 @@
 import { html } from '../../lib.js'
 
 const contactTemplate = (onSubmit) => html`
-    <section>
+    <section id="contact">
         <div class="contact">
             <h3>Email:    milushev.sashko@gmail.com</h3>
             <h3>Телефон:    +359885392121</h3>           

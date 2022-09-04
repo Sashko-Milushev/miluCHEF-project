@@ -1,7 +1,7 @@
 import { html } from '../../lib.js'
 
 const videoJokersTemplate = () => html`
-    <section id="revival">
+    <section id="jokers">
         <h1>
             Quick jokers video recipes
         </h1>

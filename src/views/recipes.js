@@ -1,30 +1,28 @@
 import { html } from '../../lib.js'
 
 const recipesTemplate = () => html`
-    <div class="row">
-        <div class="recipes recipes-column">
+    <div class="wrapper">
+        <div class="box1">
             <img src="../src/images/recipes.jpg" alt="dish pic">
             <button class="btn">Салати и разядки</button>
         </div>
-        <div class="recipes recipes-column">
+        <div class="box2">
             <img src="../src/images/recipes.jpg" alt="dish pic">
             <button class="btn">Постни ястия</button>
         </div>
-        <div class="recipes recipes-column">
+        <div class="box3">
             <img src="../src/images/recipes.jpg" alt="dish pic">
             <button class="btn">Ястия с месо и риба</button>
         </div>
-    </div>
-    <div class="row">
-        <div class="recipes recipes-column">
+        <div class="box4">
             <img src="../src/images/recipes.jpg" alt="dish pic">
             <button class="btn">Печива и десерти</button>
         </div>
-        <div class="recipes recipes-column">
+        <div class="box5">
             <img src="../src/images/recipes.jpg" alt="dish pic">
             <button class="btn">Зимнина и консерви</button>
         </div>
-        <div class="recipes recipes-column">
+        <div class="box6">
             <img src="../src/images/recipes.jpg" alt="dish pic">
             <button class="btn">Напитки</button>
         </div>

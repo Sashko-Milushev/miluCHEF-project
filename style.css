@@ -112,9 +112,8 @@ body {
         }
 .nav > .nav-links {
           position: absolute;
-          height: 0px;
+          height: 10px;
           transition: all 0.3s ease-in;
-          overflow-y: hidden;
           top: 50px;
           display: block;
           width: 100%;
@@ -150,7 +149,7 @@ body {
         }
 .nav > #nav-check:checked ~ .nav-links {
           height: calc(100vh - 50px);
-          overflow-y: auto;
+          
         }
       }
 input[type=text], select, textarea {
@@ -233,7 +232,7 @@ button[type=submit]:hover {
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    
   }
   
   /* Links inside the dropdown */
@@ -248,7 +247,10 @@ button[type=submit]:hover {
 .dropdown-content a:hover {background-color: #ddd;}
   
   /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display:block;
+    
+}   
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
@@ -271,13 +273,14 @@ button[type=submit]:hover {
 
 .grid
  {
-  display: grid;
+  display:grid;
   margin-top: 10px;
   margin-left: 190px;
   margin-right: 190px;
   grid-template-columns: repeat(3,250px);  /* 3 columns */
   grid-template-rows: repeat(2,250px); /* 3 rows  */
   grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  
 }
 
 .grid-item{
@@ -295,6 +298,7 @@ img {
 .container {
     position: relative;
     width: 100%;
+    
   }
   
   /* Make the image responsive */
@@ -321,5 +325,5 @@ img {
   }
   
   .container .btn:hover {
-    background-color: black;
+    background-color: #04AA6D;
   }
